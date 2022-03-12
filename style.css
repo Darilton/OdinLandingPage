@@ -1,0 +1,38 @@
+
+body{
+    margin: 0 auto;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header, nav, nav ul{
+    display: flex;
+}
+header{
+    padding: 8px 168px;
+    height: 520px;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    gap: 16px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+section{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.section{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
